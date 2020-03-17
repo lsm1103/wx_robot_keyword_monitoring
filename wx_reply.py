@@ -34,9 +34,9 @@ def auto_reply(msg, type, key='keyword_data'):
         for ci in config.keyword[ key ]:
             if ci in msg.text:
                 # time.sleep(0.4)  # 休眠一秒保安全，想更快可以直接注释。
-                msg.reply('杭州首选【{0}】专业高效，出证速度快，联系电话：130-5682-2334！'.format(ci))
+                msg.reply('xx公司【{0}】专业高效，xxx，联系电话：130-xxxx-1122！'.format(ci))
         if '你是' in msg.text or '你叫啥' in msg.text:
-            msg.reply('杭州首选企业管理有限公司')
+            msg.reply('xxxx有限公司')
     else:
         print("收到一条群信息：", ci, msg)
         keyword_reply(msg, type)
