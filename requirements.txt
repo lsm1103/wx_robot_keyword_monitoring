@@ -1,0 +1,4 @@
+# need to install module
+wxpy
+apscheduler
+bs4
